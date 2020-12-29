@@ -1,0 +1,109 @@
+.rootCont {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.close {
+    font: 20px 'Poppins', sans-serif;
+    color: red;
+    margin-right: 3%;
+}
+
+.close:hover {
+    color: black;
+}
+
+.editorHead {
+    font: 30px 'Poppins', sans-serif;
+}
+
+.closeCont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    cursor: pointer;
+}
+
+.formField {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputField {
+    height: 30px;
+    padding-left: 5px;
+    width: 70%;
+    border: 0px;
+    border-bottom: 2px solid red;
+    border-radius: 5%;
+}
+
+.labelText {
+    font: 15px 'Poppins', sans-serif;
+    color: grey;
+}
+
+.ff1 {
+    width: 20%;
+}
+
+.ff2 {
+    width: 50%;
+}
+
+.introButton {
+    height: 42px;
+    width: 183px;
+    background-color: #F42F2C;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    border: 0px;
+    margin-bottom: 5%;
+    margin-top: 15px;
+    transition: all 0.6s ease 0s;
+}
+
+.introButton:hover {
+    color: white;
+    background-color: red;
+    transition: all 0.6s ease 0s;
+    cursor: pointer;
+}
+
+.inputField:focus {
+    outline: none;
+}
+
+@media(max-width:1100px) {
+    .ff2 {
+        width: 70%;
+    }
+    .ff1 {
+        width: 30%;
+    }
+}
+
+@media(max-width:660px) {
+    .formField {
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    .ff1 {
+        width: 70%;
+        display: flex;
+        justify-content: center;
+    }
+    .ff2 {
+        display: flex;
+        justify-content: center;
+    }
+}

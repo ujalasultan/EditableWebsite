@@ -1,0 +1,67 @@
+.aboutcol{
+    margin-top:5%;
+    margin-left: 12%;
+    font-family: "Unna", serif;
+    font-size: 30px;
+    
+}
+.close{
+    margin: auto;
+}
+.ha2{
+    display: flex;
+    margin-left: 12%; 
+    font-family: "Unna", serif;
+    font-size: 20px;
+}
+.link{
+    color: orange;
+}
+.aboutcol1{
+    display: flex;
+  
+    margin-left: 12%;
+    padding:3%;
+}
+
+.aboutmetext{
+    border-radius: 25px;
+    padding: 25px;
+    width:80vh;
+    height: 45vh;
+    background-color: rgb(240,240,240);
+    
+}
+.aboutcol3{
+    margin-top: 5%;
+    margin-left: 12%;
+    display: flex;
+}
+.img{
+    height:250px;
+    width:20%;
+}
+.imgresive{
+ height: 250px;
+}
+.rootCont{
+    display: flex;
+    flex-direction: row;
+}
+
+.spacer{
+    width:35%;
+    height: 100vh;
+    background-color: white;
+}
+@media (max-width:650px){
+.aboutcol1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 8%;
+}
+.aboutcol3{
+    margin-left: 8%;
+}
+
+}
